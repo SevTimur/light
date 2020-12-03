@@ -266,7 +266,6 @@ li {
     padding-right: 32px;
   }
   @media (min-width: 576px) and (max-width: 991.98px) {
-    margin-bottom: 300px;
     padding-right: 18px;
   }
   @media (max-width: 575.98px) {
@@ -485,6 +484,8 @@ li {
   }
   @media (min-width: 576px) and (max-width: 991.98px) {
     float: right;
+    clear: both;
+    margin-bottom: 100px;
   }
   @media (max-width: 575.98px) {
     width: 100%;
@@ -534,4 +535,5 @@ li {
 
 .footer {
   margin-top: 100px;
+  clear: both;
 }
